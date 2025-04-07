@@ -5,9 +5,9 @@ import { SidebarItems } from "./Sidebartems"
 
 export function Sidebar() {
     return (
-     <div className="h-screen bg-white border-r w-72 fixed left-0 top-0">
-        <div className="flex text-2xl pt-4 items-center">
-            <div className="pr-2 text-purple-600">
+     <div className="h-screen bg-white  p-4 border-r w-72 fixed left-0 top-0 pl-4">
+        <div className="flex text-2xl font-medium mt-2 mb-4 items-center  ">
+            <div className=" w-12 h-16 mr-6 pt-2 text-purple-600  ">
                 <BrainIcon />
             </div>
             Brainly 
