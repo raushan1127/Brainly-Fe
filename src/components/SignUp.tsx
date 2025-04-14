@@ -12,6 +12,11 @@ export function SignUp () {
      const passwordRef = useRef<HTMLInputElement>() ;
      const navigate = useNavigate()
 
+    function SignIn (){
+      navigate("/signin")
+    }
+
+    }
     async function signup () {
         const username = usernameRef.current?.value;
         const password = passwordRef.current?.value;
